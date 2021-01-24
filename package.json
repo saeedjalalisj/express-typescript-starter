@@ -1,0 +1,26 @@
+{
+  "name": "express-typescript-starter",
+  "version": "1.0.0",
+  "description": "an API server built using typescript and express ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "node",
+    "starter",
+    "boilerplate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saeedjalalisj/express-typescript-starter.git"
+  },
+  "author": "saeedjalali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saeedjalalisj/express-typescript-starter/issues"
+  },
+  "homepage": "https://github.com/saeedjalalisj/express-typescript-starter#readme"
+}
