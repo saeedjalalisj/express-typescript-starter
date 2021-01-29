@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es6",     
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
     "moduleResolution": "node",                     
     "module": "commonjs",                    
     "lib": ["es6"],                     
@@ -14,5 +16,6 @@
   },
   "include": [
     "src/**/*"
-  ]
+  ],
+  "exclude": ["node_modules"]
 }
