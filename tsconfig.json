@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",                          
+    "target": "es6",     
+    "moduleResolution": "node",                     
     "module": "commonjs",                    
     "lib": ["es6"],                     
     "allowJs": true,
@@ -10,5 +11,8 @@
     "noImplicitAny": true,
     "esModuleInterop": true,
     "resolveJsonModule": true
-  }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
